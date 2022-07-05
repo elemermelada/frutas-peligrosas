@@ -64,9 +64,9 @@ content {
 	width: 90%;
 	margin: auto;
 	
-    border-radius: 5px;
-    -moz-border-radius: 5px;
-	box-shadow: 1px 1px 5px;
+    border-radius: 15px;
+    -moz-border-radius: 15px;
+	box-shadow: 3px 3px 5px;
 }
 
 /* Image opacity animation code */
@@ -87,17 +87,17 @@ img {
 }
 
 #banana {
-	box-shadow: 1px 1px 5px #A6A700;
+	box-shadow: 3px 3px 5px #A6A700;
 }
 
 #apple {
-	box-shadow: 1px 1px 5px #990000;
+	box-shadow: 3px 3px 5px #990000;
 }
 
 #pineapple {
-	box-shadow: 1px 1px 5px #D6D800;
+	box-shadow: 3px 3px 5px #D6D800;
 }
 
 #orange {
-	box-shadow: 1px 1px 5px #995A00;
+	box-shadow: 3px 3px 5px #995A00;
 }
