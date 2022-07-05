@@ -1,17 +1,25 @@
 h1 {
     font-family: 'Lato', sans-serif;
-    font-weight: 100;
+    font-weight: 400;
     font-size: min(10vh, 10vw);
+    text-align: center;
+}
+
+h3 {
+    font-family: 'Lato', sans-serif;
+    font-weight: 100;
+    font-size: min(3vh, 3vw);
     text-align: center;
 }
 
 /* The animation code */
 @keyframes backg {
     from {background-color: black;}
-    to {background-color: #a0a0a0;}
-  }
+    to {background-color: #f0f0f0;}
+}
 
 body {
     animation-name: backg;
     animation-duration: 4s;
+	background-color: #f0f0f0;
 }
