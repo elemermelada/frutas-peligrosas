@@ -66,7 +66,7 @@ content {
 	
     border-radius: 15px;
     -moz-border-radius: 15px;
-	box-shadow: 3px 3px 5px;
+	box-shadow: 3px 3px 15px;
 }
 
 /* Image opacity animation code */
@@ -87,17 +87,17 @@ img {
 }
 
 #banana {
-	box-shadow: 3px 3px 5px #A6A700;
+	box-shadow: 3px 3px 15px #A6A700;
 }
 
 #apple {
-	box-shadow: 3px 3px 5px #990000;
+	box-shadow: 3px 3px 15px #990000;
 }
 
 #pineapple {
-	box-shadow: 3px 3px 5px #D6D800;
+	box-shadow: 3px 3px 15px #D6D800;
 }
 
 #orange {
-	box-shadow: 3px 3px 5px #995A00;
+	box-shadow: 3px 3px 15px #995A00;
 }
