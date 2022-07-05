@@ -89,3 +89,19 @@ img {
 	margin: 5px;
 	width: 50%;
 }
+
+#apple {
+	box-shadow: 1px 1px 5px #990000;
+}
+
+#banana {
+	box-shadow: 1px 1px 5px #A6A700;
+}
+
+#pineapple {
+	box-shadow: 1px 1px 5px #D6D800;
+}
+
+#orange {
+	box-shadow: 1px 1px 5px #995A00;
+}
