@@ -61,16 +61,12 @@ content {
 	background-color: #ffffff;
 	
 	padding: 20px;
-	width: 60%;
+	width: 90%;
 	margin: auto;
 	
     border-radius: 5px;
     -moz-border-radius: 5px;
 	box-shadow: 1px 1px 5px;
-	
-	text-align: justify;
-	overflow: auto;
-	clear: both;
 }
 
 /* Image opacity animation code */
@@ -86,16 +82,16 @@ img {
 	animation-fill-mode: forwards;
 	opacity: 0.0;
 	
-	margin: 20px;
-	width: 50%;
-}
-
-#apple {
-	box-shadow: 1px 1px 5px #990000;
+	margin: 5%;
+	width: 90%;
 }
 
 #banana {
 	box-shadow: 1px 1px 5px #A6A700;
+}
+
+#apple {
+	box-shadow: 1px 1px 5px #990000;
 }
 
 #pineapple {
