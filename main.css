@@ -68,3 +68,17 @@ content {
     -moz-border-radius: 5px;
 	box-shadow: 1px 1px 5px;
 }
+
+/* Image opacity animation code */
+@keyframes imgop {
+    from {opacity: 0.0;}
+    to {opacity: 1.0;}
+}
+
+img {
+	animation-name: imgop;
+	animation-delay: 2s;
+    animation-duration: 2s;
+	animation-fill-mode: forwards;
+	opacity: 0.0;
+}
