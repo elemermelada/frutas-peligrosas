@@ -31,6 +31,9 @@ body {
     animation-name: backg;
     animation-duration: 4s;
 	background-color: #f0f0f0;
+	
+	font-family: 'Oswald', sans-serif;
+	font-size: min(3vh, 3vw);
 }
 
 hr {
