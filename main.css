@@ -1,8 +1,17 @@
 h1 {
-    font-family: 'Lato', sans-serif;
-    font-weight: 400;
+    font-family: 'Garamond', 'Times New Roman';
+    font-weight: 800;
     font-size: min(10vh, 10vw);
     text-align: center;
+}
+
+h2 {
+	margin-top: 0px;
+	margin-bottom: 5px;
+	font-family: 'Garamond', 'Times New Roman';
+    font-weight: 800;
+    font-size: min(5vh, 5vw);
+	text-decoration: underline;  
 }
 
 h3 {
@@ -12,7 +21,7 @@ h3 {
     text-align: center;
 }
 
-/* The animation code */
+/* Background animation code */
 @keyframes backg {
     from {background-color: black;}
     to {background-color: #f0f0f0;}
@@ -22,4 +31,37 @@ body {
     animation-name: backg;
     animation-duration: 4s;
 	background-color: #f0f0f0;
+}
+
+hr {
+    margin: 0 auto;
+    margin-top: 40px;
+	margin-bottom: 40px;
+    width: 90%;
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(50, 50, 50, 0), rgba(50, 50, 50, 0.75), rgba(50, 50, 50, 0));
+}
+
+content {
+}
+
+/* Fruit background animation code */
+@keyframes fbackg {
+    from {background-color: black;}
+    to {background-color: #ffffff;}
+}
+
+.fruit {
+	animation-name: fbackg;
+    animation-duration: 4s;
+	background-color: #ffffff;
+	
+	padding: 20px;
+	width: 60%;
+	margin: auto;
+	
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+	box-shadow: 1px 1px 5px;
 }
